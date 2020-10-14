@@ -1780,3 +1780,553 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.14-11.55.18:567][ 11]LogFileHelpers: Loading map 'MainMenu' took 0.190
 [2020.10.14-11.55.18:590][ 11]AssetCheck: New page: Asset Save: MainMenu
 [2020.10.14-11.55.18:590][ 11]LogContentValidation: Display: Validating World /Game/Menu/MainMenu.MainMenu
+[2020.10.14-11.56.49:439][333]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap
+[2020.10.14-11.56.49:471][333]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.10.14-11.56.49:474][333]Cmd: MAP LOAD FILE="C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.14-11.56.49:474][333]LightingResults: New page: Lighting Build
+[2020.10.14-11.56.49:474][333]LoadErrors: New page: Loading map: TwinStickExampleMap.umap
+[2020.10.14-11.56.49:511][333]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-11.56.49:512][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-11.56.49:512][333]MapCheck: New page: Map Check
+[2020.10.14-11.56.49:512][333]LightingResults: New page: Lighting Build
+[2020.10.14-11.56.49:534][333]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002CF7E93DF80), frame # 200333
+[2020.10.14-11.56.49:534][333]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002CFF3390400), frame # 200333
+[2020.10.14-11.56.49:536][333]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.10.14-11.56.49:566][333]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.14-11.56.49:566][333]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2020.10.14-11.56.49:566][333]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D013012400), frame # 200333
+[2020.10.14-11.56.49:566][333]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002CF51C97100), frame # 200333
+[2020.10.14-11.56.49:590][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.10.14-11.56.49:597][333]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.14-11.56.49:598][333]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.604ms to complete.
+[2020.10.14-11.56.49:598][333]LogFileHelpers: Loading map 'TwinStickExampleMap' took 0.124
+[2020.10.14-11.56.51:575][548]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-11.56.51:586][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-11.56.51:586][548]PIE: New page: PIE session: TwinStickExampleMap (14 Oct 2020, 13:56:51)
+[2020.10.14-11.56.51:586][548]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-11.56.51:591][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004233s)
+[2020.10.14-11.56.51:592][548]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2020.10.14-11.56.51:592][548]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002CF90D2C200), frame # 200548
+[2020.10.14-11.56.51:592][548]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002CF64017600), frame # 200548
+[2020.10.14-11.56.51:592][548]LogPlayLevel: PIE: World Init took: (0.001393s)
+[2020.10.14-11.56.51:593][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.006047s)
+[2020.10.14-11.56.51:615][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.10.14-11.56.51:627][548]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.14-11.56.51:627][548]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.14-11.56.51:627][548]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.14-11.56.51:627][548]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.14-11.56.51:627][548]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.14-11.56.51:627][548]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.14-11.56.51:627][548]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.14-11.56.51:627][548]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.14-11.56.51:628][548]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.14-11.56.51:628][548]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.14-11.56.51:658][548]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.14-11.56.51:658][548]LogAudioMixer: Display: 1: FrontRight
+[2020.10.14-11.56.51:734][548]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.14-11.56.51:744][548]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.14-11.56.51:744][548]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.14-11.56.51:744][548]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.14-11.56.51:744][548]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.14-11.56.51:749][548]LogInit: FAudioDevice initialized.
+[2020.10.14-11.56.51:760][548]LogLoad: Game class is 'TwinStickGameMode_C'
+[2020.10.14-11.56.51:762][548]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2020.10.14-12.56.51
+[2020.10.14-11.56.51:762][548]LogWorld: Bringing up level for play took: 0.001319
+[2020.10.14-11.56.51:762][548]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.10.14-11.56.51:764][548]PIE: Server logged in
+[2020.10.14-11.56.51:765][548]PIE: Play in editor total start time 0.185 seconds.
+[2020.10.14-11.56.52:758][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-11.56.52:758][657]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-11.56.52:758][657]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-11.56.52:758][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-11.56.52:764][657]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-11.56.52:767][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-11.56.52:812][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-11.56.52:813][657]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002CF64017600), frame # 200657
+[2020.10.14-11.56.52:813][657]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002CF90D2C200), frame # 200657
+[2020.10.14-11.56.52:815][657]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.10.14-11.56.52:833][658]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.10.14-11.56.57:691][225]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2020.10.14-11.57.00:276][470]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap
+[2020.10.14-11.58.22:786][860]BlueprintLog: New page: Compile TwinStickExampleMap
+[2020.10.14-11.58.22:826][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.10.14-11.58.23:329][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.10.14-11.58.23:377][894]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickExampleMap70EBED7545B21B751EC11E923001C251.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2020.10.14-11.58.23:388][894]LogFileHelpers: Saving map 'TwinStickExampleMap' took 0.090
+[2020.10.14-11.58.23:410][894]AssetCheck: New page: Asset Save: TwinStickExampleMap
+[2020.10.14-11.58.23:410][894]LogContentValidation: Display: Validating World /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap
+[2020.10.14-11.58.26:051][140]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-11.58.26:063][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-11.58.26:063][140]PIE: New page: PIE session: TwinStickExampleMap (14 Oct 2020, 13:58:26)
+[2020.10.14-11.58.26:064][140]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-11.58.26:068][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004196s)
+[2020.10.14-11.58.26:069][140]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2020.10.14-11.58.26:069][140]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002CFB9568600), frame # 209140
+[2020.10.14-11.58.26:069][140]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002CFC42D5080), frame # 209140
+[2020.10.14-11.58.26:069][140]LogPlayLevel: PIE: World Init took: (0.001516s)
+[2020.10.14-11.58.26:070][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005967s)
+[2020.10.14-11.58.26:093][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.10.14-11.58.26:095][140]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.14-11.58.26:095][140]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.14-11.58.26:095][140]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.14-11.58.26:095][140]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.14-11.58.26:095][140]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.14-11.58.26:095][140]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.14-11.58.26:095][140]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.14-11.58.26:095][140]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.14-11.58.26:095][140]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.14-11.58.26:096][140]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.14-11.58.26:113][140]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.14-11.58.26:113][140]LogAudioMixer: Display: 1: FrontRight
+[2020.10.14-11.58.26:182][140]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.14-11.58.26:182][140]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.14-11.58.26:182][140]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.14-11.58.26:182][140]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.14-11.58.26:183][140]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.14-11.58.26:199][140]LogInit: FAudioDevice initialized.
+[2020.10.14-11.58.26:207][140]LogLoad: Game class is 'TwinStickGameMode_C'
+[2020.10.14-11.58.26:209][140]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2020.10.14-12.58.26
+[2020.10.14-11.58.26:209][140]LogWorld: Bringing up level for play took: 0.000909
+[2020.10.14-11.58.26:209][140]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.10.14-11.58.26:220][140]PIE: Server logged in
+[2020.10.14-11.58.26:221][140]PIE: Play in editor total start time 0.165 seconds.
+[2020.10.14-11.58.34:799][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-11.58.34:799][113]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-11.58.34:799][113]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-11.58.34:799][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-11.58.34:809][113]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-11.58.34:813][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-11.58.34:836][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-11.58.34:861][113]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002CFC42D5080), frame # 210113
+[2020.10.14-11.58.34:861][113]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002CFB9568600), frame # 210113
+[2020.10.14-11.58.34:863][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.10.14-11.58.34:888][114]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.10.14-11.58.46:610][266]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2020.10.14-11.58.53:580][  1]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2020.10.14-11.58.54:859][131]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-11.58.54:870][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-11.58.54:870][131]PIE: New page: PIE session: TwinStickExampleMap (14 Oct 2020, 13:58:54)
+[2020.10.14-11.58.54:911][131]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-11.58.54:916][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004467s)
+[2020.10.14-11.58.54:917][131]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2020.10.14-11.58.54:917][131]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002CFF9F75400), frame # 212131
+[2020.10.14-11.58.54:917][131]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002CFD14A0540), frame # 212131
+[2020.10.14-11.58.54:917][131]LogPlayLevel: PIE: World Init took: (0.001348s)
+[2020.10.14-11.58.54:917][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.006113s)
+[2020.10.14-11.58.54:949][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.10.14-11.58.54:952][131]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.14-11.58.54:952][131]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.14-11.58.54:952][131]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.14-11.58.54:952][131]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.14-11.58.54:952][131]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.14-11.58.54:952][131]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.14-11.58.54:952][131]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.14-11.58.54:952][131]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.14-11.58.54:953][131]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.14-11.58.54:953][131]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.14-11.58.54:974][131]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.14-11.58.54:974][131]LogAudioMixer: Display: 1: FrontRight
+[2020.10.14-11.58.55:042][131]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.14-11.58.55:043][131]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.14-11.58.55:043][131]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.14-11.58.55:043][131]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.14-11.58.55:043][131]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.14-11.58.55:058][131]LogInit: FAudioDevice initialized.
+[2020.10.14-11.58.55:069][131]LogLoad: Game class is 'TwinStickGameMode_C'
+[2020.10.14-11.58.55:071][131]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2020.10.14-12.58.55
+[2020.10.14-11.58.55:071][131]LogWorld: Bringing up level for play took: 0.001331
+[2020.10.14-11.58.55:072][131]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.10.14-11.58.55:074][131]PIE: Server logged in
+[2020.10.14-11.58.55:075][131]PIE: Play in editor total start time 0.212 seconds.
+[2020.10.14-11.58.59:718][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-11.58.59:718][664]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-11.58.59:719][664]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-11.58.59:719][664]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-11.58.59:727][664]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-11.58.59:730][664]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-11.58.59:778][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-11.58.59:779][664]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002CFD14A0540), frame # 212664
+[2020.10.14-11.58.59:779][664]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002CFF9F75400), frame # 212664
+[2020.10.14-11.58.59:782][664]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.10.14-11.58.59:800][665]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.10.14-11.59.14:011][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.10.14-11.59.14:052][858]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickExampleMapEA7FAF524D1D4CC23F5CC585EA417746.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2020.10.14-11.59.14:198][858]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickExampleMap_BuiltData4126179B4237D737C0BC10A45A50DCE7.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2020.10.14-11.59.14:227][858]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.14-11.59.14:228][858]LogContentValidation: Display: Validating World /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap
+[2020.10.14-11.59.14:228][858]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.TwinStickExampleMap_BuiltData
+[2020.10.14-11.59.39:413][471]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.10.14-11.59.44:099][996]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Projectiles/Bullet.Bullet
+[2020.10.14-11.59.56:118][897]LogPhysics: Warning: Scale for /Engine/Transient.World_12:PersistentLevel.Bullet_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.587 Y=0.000 Z=1.000
+[2020.10.14-11.59.57:503][992]LogPhysics: Warning: Scale for /Engine/Transient.World_12:PersistentLevel.Bullet_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.587 Y=0.000 Z=1.000
+[2020.10.14-12.00.09:372][903]BlueprintLog: New page: Compile Bullet
+[2020.10.14-12.00.09:418][903]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.10.14-12.00.10:127][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectiles/Bullet" FILE="C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/Projectiles/Bullet.uasset" SILENT=true
+[2020.10.14-12.00.10:140][949]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/Bullet3DA7A2354AFEF4F7C1D631AEF88832CE.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/Projectiles/Bullet.uasset'
+[2020.10.14-12.00.10:174][949]AssetCheck: New page: Asset Save: Bullet
+[2020.10.14-12.00.10:174][949]LogContentValidation: Display: Validating Blueprint /Game/Projectiles/Bullet.Bullet
+[2020.10.14-12.00.12:521][149]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-12.00.12:521][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.00.15:010][403]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-12.00.15:011][403]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.00.59:992][908]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.14-12.01.53:121][842]BlueprintLog: New page: Compile TwinStickPawn
+[2020.10.14-12.01.53:205][842]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.10.14-12.01.54:084][891]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickPawnF4C33FC948C90E515F6DE09EEF615C41.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2020.10.14-12.01.54:108][891]AssetCheck: New page: Asset Save: TwinStickPawn
+[2020.10.14-12.01.54:108][891]LogContentValidation: Display: Validating Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn
+[2020.10.14-12.01.58:202][123]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-12.01.58:214][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-12.01.58:214][123]PIE: New page: PIE session: TwinStickExampleMap (14 Oct 2020, 14:01:58)
+[2020.10.14-12.01.58:251][123]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-12.01.58:256][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004520s)
+[2020.10.14-12.01.58:257][123]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2020.10.14-12.01.58:257][123]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002CF786E8600), frame # 225123
+[2020.10.14-12.01.58:257][123]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002CF64017600), frame # 225123
+[2020.10.14-12.01.58:257][123]LogPlayLevel: PIE: World Init took: (0.001296s)
+[2020.10.14-12.01.58:257][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.006091s)
+[2020.10.14-12.01.58:291][123]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.10.14-12.01.58:293][123]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.14-12.01.58:293][123]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.14-12.01.58:293][123]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.14-12.01.58:293][123]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.14-12.01.58:293][123]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.14-12.01.58:293][123]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.14-12.01.58:293][123]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.14-12.01.58:293][123]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.14-12.01.58:294][123]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.14-12.01.58:294][123]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.14-12.01.58:314][123]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.14-12.01.58:314][123]LogAudioMixer: Display: 1: FrontRight
+[2020.10.14-12.01.58:399][123]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.14-12.01.58:399][123]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.14-12.01.58:399][123]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.14-12.01.58:399][123]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.14-12.01.58:400][123]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.14-12.01.58:417][123]LogInit: FAudioDevice initialized.
+[2020.10.14-12.01.58:427][123]LogLoad: Game class is 'TwinStickGameMode_C'
+[2020.10.14-12.01.58:428][123]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2020.10.14-13.01.58
+[2020.10.14-12.01.58:429][123]LogWorld: Bringing up level for play took: 0.000948
+[2020.10.14-12.01.58:429][123]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.10.14-12.01.58:431][123]PIE: Server logged in
+[2020.10.14-12.01.58:432][123]PIE: Play in editor total start time 0.226 seconds.
+[2020.10.14-12.02.05:378][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-12.02.05:378][916]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-12.02.05:379][916]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-12.02.05:390][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.02.05:399][916]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-12.02.05:403][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.02.05:468][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-12.02.05:470][916]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002CF64017600), frame # 225916
+[2020.10.14-12.02.05:470][916]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002CF786E8600), frame # 225916
+[2020.10.14-12.02.05:474][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.10.14-12.02.05:494][917]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.10.14-12.02.35:245][303]BlueprintLog: New page: Compile TwinStickPawn
+[2020.10.14-12.02.35:297][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.10.14-12.02.35:917][341]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickPawn9EC47F58475DB7B52BAE08A4DD3D25D4.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2020.10.14-12.02.35:943][341]AssetCheck: New page: Asset Save: TwinStickPawn
+[2020.10.14-12.02.35:943][341]LogContentValidation: Display: Validating Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn
+[2020.10.14-12.02.38:492][586]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-12.02.38:503][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-12.02.38:504][586]PIE: New page: PIE session: TwinStickExampleMap (14 Oct 2020, 14:02:38)
+[2020.10.14-12.02.38:504][586]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-12.02.38:509][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005177s)
+[2020.10.14-12.02.38:511][586]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2020.10.14-12.02.38:511][586]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002CFF641C400), frame # 228586
+[2020.10.14-12.02.38:511][586]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002CFDEBC6340), frame # 228586
+[2020.10.14-12.02.38:511][586]LogPlayLevel: PIE: World Init took: (0.002165s)
+[2020.10.14-12.02.38:511][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.007689s)
+[2020.10.14-12.02.38:536][586]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.10.14-12.02.38:537][586]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.14-12.02.38:537][586]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.14-12.02.38:537][586]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.14-12.02.38:537][586]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.14-12.02.38:537][586]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.14-12.02.38:537][586]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.14-12.02.38:537][586]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.14-12.02.38:537][586]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.14-12.02.38:538][586]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.14-12.02.38:538][586]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.14-12.02.38:557][586]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.14-12.02.38:557][586]LogAudioMixer: Display: 1: FrontRight
+[2020.10.14-12.02.38:635][586]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.14-12.02.38:635][586]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.14-12.02.38:636][586]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.14-12.02.38:636][586]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.14-12.02.38:636][586]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.14-12.02.38:652][586]LogInit: FAudioDevice initialized.
+[2020.10.14-12.02.38:664][586]LogLoad: Game class is 'TwinStickGameMode_C'
+[2020.10.14-12.02.38:666][586]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2020.10.14-13.02.38
+[2020.10.14-12.02.38:666][586]LogWorld: Bringing up level for play took: 0.000829
+[2020.10.14-12.02.38:666][586]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.10.14-12.02.38:668][586]PIE: Server logged in
+[2020.10.14-12.02.38:669][586]PIE: Play in editor total start time 0.172 seconds.
+[2020.10.14-12.02.46:318][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-12.02.46:318][478]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-12.02.46:319][478]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-12.02.46:319][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.02.46:325][478]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-12.02.46:329][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.02.46:378][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-12.02.46:378][478]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002CFDEBC6340), frame # 229478
+[2020.10.14-12.02.46:378][478]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002CFF641C400), frame # 229478
+[2020.10.14-12.02.46:381][478]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.10.14-12.02.46:400][479]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.10.14-12.03.12:305][989]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Projectiles/Bullet.Bullet
+[2020.10.14-12.04.07:035][222]BlueprintLog: New page: Compile Bullet
+[2020.10.14-12.04.07:100][222]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.10.14-12.04.07:532][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectiles/Bullet" FILE="C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/Projectiles/Bullet.uasset" SILENT=true
+[2020.10.14-12.04.07:553][251]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/Bullet7CE905D147A49FF9AF520ABF1926D9DA.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/Projectiles/Bullet.uasset'
+[2020.10.14-12.04.07:581][251]AssetCheck: New page: Asset Save: Bullet
+[2020.10.14-12.04.07:582][251]LogContentValidation: Display: Validating Blueprint /Game/Projectiles/Bullet.Bullet
+[2020.10.14-12.04.09:348][412]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-12.04.09:360][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-12.04.09:360][412]PIE: New page: PIE session: TwinStickExampleMap (14 Oct 2020, 14:04:09)
+[2020.10.14-12.04.09:380][412]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-12.04.09:385][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004667s)
+[2020.10.14-12.04.09:386][412]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2020.10.14-12.04.09:386][412]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002CF8F82A400), frame # 233412
+[2020.10.14-12.04.09:386][412]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002CFF463B100), frame # 233412
+[2020.10.14-12.04.09:387][412]LogPlayLevel: PIE: World Init took: (0.001503s)
+[2020.10.14-12.04.09:387][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.006435s)
+[2020.10.14-12.04.09:413][412]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.10.14-12.04.09:414][412]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.14-12.04.09:414][412]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.14-12.04.09:414][412]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.14-12.04.09:414][412]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.14-12.04.09:415][412]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.14-12.04.09:415][412]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.14-12.04.09:415][412]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.14-12.04.09:415][412]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.14-12.04.09:415][412]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.14-12.04.09:415][412]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.14-12.04.09:433][412]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.14-12.04.09:433][412]LogAudioMixer: Display: 1: FrontRight
+[2020.10.14-12.04.09:505][412]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.14-12.04.09:505][412]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.14-12.04.09:505][412]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.14-12.04.09:505][412]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.14-12.04.09:505][412]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.14-12.04.09:522][412]LogInit: FAudioDevice initialized.
+[2020.10.14-12.04.09:533][412]LogLoad: Game class is 'TwinStickGameMode_C'
+[2020.10.14-12.04.09:534][412]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2020.10.14-13.04.09
+[2020.10.14-12.04.09:535][412]LogWorld: Bringing up level for play took: 0.001046
+[2020.10.14-12.04.09:535][412]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2020.10.14-12.04.09:537][412]PIE: Server logged in
+[2020.10.14-12.04.09:538][412]PIE: Play in editor total start time 0.184 seconds.
+[2020.10.14-12.04.16:918][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-12.04.16:918][268]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-12.04.16:918][268]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-12.04.16:918][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.04.16:926][268]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-12.04.16:930][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.04.16:979][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-12.04.16:980][268]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002CFF463B100), frame # 234268
+[2020.10.14-12.04.16:980][268]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002CF8F82A400), frame # 234268
+[2020.10.14-12.04.16:982][268]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.10.14-12.04.17:001][269]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2020.10.14-12.04.31:308][279]BlueprintLog: New page: Compile Bullet
+[2020.10.14-12.04.31:354][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.10.14-12.04.33:834][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectiles/Bullet" FILE="C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/Projectiles/Bullet.uasset" SILENT=true
+[2020.10.14-12.04.33:859][490]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/BulletA3D149E24BE8807D836C1CA117CC8091.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/Projectiles/Bullet.uasset'
+[2020.10.14-12.04.33:874][490]AssetCheck: New page: Asset Save: Bullet
+[2020.10.14-12.04.33:874][490]LogContentValidation: Display: Validating Blueprint /Game/Projectiles/Bullet.Bullet
+[2020.10.14-12.05.49:313][756]BlueprintLog: New page: Compile Bullet
+[2020.10.14-12.05.49:359][756]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.10.14-12.05.49:871][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectiles/Bullet" FILE="C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/Projectiles/Bullet.uasset" SILENT=true
+[2020.10.14-12.05.49:899][787]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/BulletC80E68FE4D09AF2F036E688DE20CBF58.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/Projectiles/Bullet.uasset'
+[2020.10.14-12.05.49:918][787]AssetCheck: New page: Asset Save: Bullet
+[2020.10.14-12.05.49:918][787]LogContentValidation: Display: Validating Blueprint /Game/Projectiles/Bullet.Bullet
+[2020.10.14-12.05.52:013][982]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-12.05.52:025][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-12.05.52:025][982]PIE: New page: PIE session: TwinStickExampleMap (14 Oct 2020, 14:05:52)
+[2020.10.14-12.05.52:026][982]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-12.05.52:031][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005361s)
+[2020.10.14-12.05.52:033][982]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2020.10.14-12.05.52:033][982]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002CFFA392A00), frame # 240982
+[2020.10.14-12.05.52:033][982]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D01FA11F80), frame # 240982
+[2020.10.14-12.05.52:033][982]LogPlayLevel: PIE: World Init took: (0.001901s)
+[2020.10.14-12.05.52:033][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.007510s)
+[2020.10.14-12.05.52:058][982]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.10.14-12.05.52:060][982]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.14-12.05.52:060][982]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.14-12.05.52:060][982]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.14-12.05.52:060][982]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.14-12.05.52:060][982]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.14-12.05.52:060][982]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.14-12.05.52:060][982]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.14-12.05.52:060][982]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.14-12.05.52:061][982]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.14-12.05.52:061][982]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.14-12.05.52:084][982]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.14-12.05.52:084][982]LogAudioMixer: Display: 1: FrontRight
+[2020.10.14-12.05.52:168][982]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.14-12.05.52:168][982]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.14-12.05.52:168][982]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.14-12.05.52:168][982]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.14-12.05.52:169][982]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.14-12.05.52:186][982]LogInit: FAudioDevice initialized.
+[2020.10.14-12.05.52:195][982]LogLoad: Game class is 'TwinStickGameMode_C'
+[2020.10.14-12.05.52:197][982]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2020.10.14-13.05.52
+[2020.10.14-12.05.52:197][982]LogWorld: Bringing up level for play took: 0.001262
+[2020.10.14-12.05.52:198][982]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.10.14-12.05.52:200][982]PIE: Server logged in
+[2020.10.14-12.05.52:201][982]PIE: Play in editor total start time 0.183 seconds.
+[2020.10.14-12.06.19:388][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-12.06.19:388][ 14]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-12.06.19:388][ 14]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-12.06.19:389][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.06.19:402][ 14]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-12.06.19:406][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.06.19:454][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-12.06.19:455][ 14]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D01FA11F80), frame # 244014
+[2020.10.14-12.06.19:455][ 14]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002CFFA392A00), frame # 244014
+[2020.10.14-12.06.19:457][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.10.14-12.06.19:477][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.10.14-12.06.20:186][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.10.14-12.06.20:257][ 91]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickExampleMapF371F1B447C8D75C1397938B96427314.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2020.10.14-12.06.20:368][ 91]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickExampleMap_BuiltDataB458F1D940FEDB41F6FAAB84B81D9692.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2020.10.14-12.06.20:389][ 91]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.14-12.06.20:389][ 91]LogContentValidation: Display: Validating World /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap
+[2020.10.14-12.06.20:389][ 91]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.TwinStickExampleMap_BuiltData
+[2020.10.14-12.08.47:155][245]BlueprintLog: New page: Compile Bullet
+[2020.10.14-12.08.47:232][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.10.14-12.08.47:689][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectiles/Bullet" FILE="C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/Projectiles/Bullet.uasset" SILENT=true
+[2020.10.14-12.08.47:712][275]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/BulletBBADF37B46F6533F117886808CB493DB.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/Projectiles/Bullet.uasset'
+[2020.10.14-12.08.47:738][275]AssetCheck: New page: Asset Save: Bullet
+[2020.10.14-12.08.47:738][275]LogContentValidation: Display: Validating Blueprint /Game/Projectiles/Bullet.Bullet
+[2020.10.14-12.09.06:343][867]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickPawn8ABBCCAF42441E3EA9E2F482EDE4D465.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2020.10.14-12.09.06:366][867]AssetCheck: New page: Asset Save: TwinStickPawn
+[2020.10.14-12.09.06:366][867]LogContentValidation: Display: Validating Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn
+[2020.10.14-12.09.12:921][478]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-12.09.12:933][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-12.09.12:933][478]PIE: New page: PIE session: TwinStickExampleMap (14 Oct 2020, 14:09:12)
+[2020.10.14-12.09.12:942][478]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-12.09.12:946][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003945s)
+[2020.10.14-12.09.12:948][478]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2020.10.14-12.09.12:948][478]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D027357E00), frame # 252478
+[2020.10.14-12.09.12:948][478]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002CFDCDB9E40), frame # 252478
+[2020.10.14-12.09.12:948][478]LogPlayLevel: PIE: World Init took: (0.001585s)
+[2020.10.14-12.09.12:948][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005818s)
+[2020.10.14-12.09.12:974][478]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.10.14-12.09.12:976][478]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.14-12.09.12:976][478]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.14-12.09.12:976][478]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.14-12.09.12:976][478]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.14-12.09.12:976][478]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.14-12.09.12:976][478]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.14-12.09.12:976][478]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.14-12.09.12:977][478]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.14-12.09.12:977][478]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.14-12.09.12:977][478]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.14-12.09.12:997][478]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.14-12.09.12:998][478]LogAudioMixer: Display: 1: FrontRight
+[2020.10.14-12.09.13:076][478]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.14-12.09.13:076][478]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.14-12.09.13:077][478]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.14-12.09.13:077][478]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.14-12.09.13:077][478]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.14-12.09.13:093][478]LogInit: FAudioDevice initialized.
+[2020.10.14-12.09.13:100][478]LogLoad: Game class is 'TwinStickGameMode_C'
+[2020.10.14-12.09.13:102][478]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2020.10.14-13.09.13
+[2020.10.14-12.09.13:102][478]LogWorld: Bringing up level for play took: 0.001136
+[2020.10.14-12.09.13:102][478]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2020.10.14-12.09.13:105][478]PIE: Server logged in
+[2020.10.14-12.09.13:105][478]PIE: Play in editor total start time 0.179 seconds.
+[2020.10.14-12.09.23:747][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-12.09.23:747][691]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-12.09.23:747][691]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-12.09.23:747][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.09.23:754][691]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-12.09.23:757][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.09.23:802][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-12.09.23:803][691]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002CFDCDB9E40), frame # 253691
+[2020.10.14-12.09.23:803][691]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D027357E00), frame # 253691
+[2020.10.14-12.09.23:805][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.10.14-12.09.23:825][692]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2020.10.14-12.13.58:628][793]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-12.13.58:641][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-12.13.58:641][793]PIE: New page: PIE session: TwinStickExampleMap (14 Oct 2020, 14:13:58)
+[2020.10.14-12.13.58:645][793]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-12.13.58:651][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005034s)
+[2020.10.14-12.13.58:652][793]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2020.10.14-12.13.58:652][793]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002CFB334E400), frame # 254793
+[2020.10.14-12.13.58:652][793]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002CFDCDB82C0), frame # 254793
+[2020.10.14-12.13.58:653][793]LogPlayLevel: PIE: World Init took: (0.001968s)
+[2020.10.14-12.13.58:653][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.007394s)
+[2020.10.14-12.13.58:681][793]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.10.14-12.13.58:683][793]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.14-12.13.58:683][793]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.14-12.13.58:683][793]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.14-12.13.58:683][793]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.14-12.13.58:683][793]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.14-12.13.58:683][793]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.14-12.13.58:683][793]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.14-12.13.58:683][793]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.14-12.13.58:683][793]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.14-12.13.58:684][793]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.14-12.13.58:703][793]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.14-12.13.58:703][793]LogAudioMixer: Display: 1: FrontRight
+[2020.10.14-12.13.58:775][793]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.14-12.13.58:776][793]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.14-12.13.58:776][793]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.14-12.13.58:776][793]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.14-12.13.58:777][793]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.14-12.13.58:794][793]LogInit: FAudioDevice initialized.
+[2020.10.14-12.13.58:832][793]LogLoad: Game class is 'TwinStickGameMode_C'
+[2020.10.14-12.13.58:833][793]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2020.10.14-13.13.58
+[2020.10.14-12.13.58:834][793]LogWorld: Bringing up level for play took: 0.001139
+[2020.10.14-12.13.58:834][793]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2020.10.14-12.13.58:836][793]PIE: Server logged in
+[2020.10.14-12.13.58:837][793]PIE: Play in editor total start time 0.204 seconds.
+[2020.10.14-12.14.16:356][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-12.14.16:356][812]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2020.10.14-12.14.16:357][812]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-12.14.16:357][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.14.16:365][812]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-12.14.16:368][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-12.14.16:393][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-12.14.16:418][812]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002CFDCDB82C0), frame # 256812
+[2020.10.14-12.14.16:418][812]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002CFB334E400), frame # 256812
+[2020.10.14-12.14.16:420][812]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.10.14-12.14.16:444][813]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2020.10.14-12.16.48:791][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.10.14-12.16.48:836][508]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickExampleMap_Auto33551280F45861FC1E67043AE74CA4008.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/Autosaves/Game/TwinStickBP/Maps/TwinStickExampleMap_Auto3.umap'
+[2020.10.14-12.16.48:840][508]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.074
+[2020.10.14-12.16.48:840][508]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.074
+[2020.10.14-12.18.58:438][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.10.14-12.18.58:479][549]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickExampleMapA7B5ECCB4A20BDFF0E5A079215D4E88E.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2020.10.14-12.18.58:587][549]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickExampleMap_BuiltData4131C9C5417BB8953D01609FE5D83A60.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2020.10.14-12.18.58:607][549]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.14-12.18.58:607][549]LogContentValidation: Display: Validating World /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap
+[2020.10.14-12.18.58:607][549]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.TwinStickExampleMap_BuiltData
+[2020.10.14-12.19.10:302][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.10.14-12.19.10:384][876]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickExampleMap715F5F8E402C70121DCC01A19678F547.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2020.10.14-12.19.10:491][876]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickExampleMap_BuiltData658B021B4A8211B9D76A1193B1371282.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2020.10.14-12.19.10:517][876]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.14-12.19.10:517][876]LogContentValidation: Display: Validating World /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap
+[2020.10.14-12.19.10:517][876]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.TwinStickExampleMap_BuiltData
+[2020.10.14-12.21.16:269][413]BlueprintLog: New page: Compile TwinStickPawn
+[2020.10.14-12.21.16:327][413]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.10.14-12.21.16:873][440]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickPawn5E79D59B44974B40A4A72E8611123E46.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2020.10.14-12.21.16:903][440]AssetCheck: New page: Asset Save: TwinStickPawn
+[2020.10.14-12.21.16:903][440]LogContentValidation: Display: Validating Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn
+[2020.10.14-12.21.29:857][314]BlueprintLog: New page: Compile Bullet
+[2020.10.14-12.21.29:941][314]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.10.14-12.21.30:590][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectiles/Bullet" FILE="C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/Projectiles/Bullet.uasset" SILENT=true
+[2020.10.14-12.21.30:632][366]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/BulletDA4ECE6343E626660A411DBEFE579721.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/Projectiles/Bullet.uasset'
+[2020.10.14-12.21.30:655][366]AssetCheck: New page: Asset Save: Bullet
+[2020.10.14-12.21.30:655][366]LogContentValidation: Display: Validating Blueprint /Game/Projectiles/Bullet.Bullet
+[2020.10.14-12.21.39:592][ 93]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap
+[2020.10.14-12.21.41:950][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.10.14-12.21.41:987][247]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickExampleMap5DF27B1A4EE2B836588882BD8F99FA20.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2020.10.14-12.21.41:998][247]LogFileHelpers: Saving map 'TwinStickExampleMap' took 0.084
+[2020.10.14-12.21.42:019][247]AssetCheck: New page: Asset Save: TwinStickExampleMap
+[2020.10.14-12.21.42:020][247]LogContentValidation: Display: Validating World /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap
+[2020.10.14-12.21.50:961][183]BlueprintLog: New page: Compile TwinStickExampleMap
+[2020.10.14-12.21.51:003][183]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.10.14-12.21.51:460][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.10.14-12.21.51:498][223]LogSavePackage: Moving 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Saved/TwinStickExampleMap46E5016A47A9D760BBDBD3BE1633BA35.tmp' to 'C:/Users/Owner/Documents/GitHub/W1T8GroupProject/W1T8GroupProject/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2020.10.14-12.21.51:509][223]LogFileHelpers: Saving map 'TwinStickExampleMap' took 0.079
+[2020.10.14-12.21.51:528][223]AssetCheck: New page: Asset Save: TwinStickExampleMap
+[2020.10.14-12.21.51:528][223]LogContentValidation: Display: Validating World /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap
